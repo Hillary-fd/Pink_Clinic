@@ -1,11 +1,11 @@
 const API_MASCOTAS =
-"http://localhost:3000/api/mascotas";
+"/api/mascotas";
 
 const API_PRODUCTOS =
-"http://localhost:3000/api/productos";
+"/api/productos";
 
 const API_CITAS =
-"http://localhost:3000/api/citas";
+"/api/citas";
 
 async function cargarDatos(){
 
