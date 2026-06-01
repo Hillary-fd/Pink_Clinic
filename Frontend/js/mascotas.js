@@ -1,5 +1,5 @@
 const API =
-"http://localhost:3000/api/mascotas";
+"/api/mascotas";
 
 async function guardarMascota(){
 
