@@ -50,7 +50,7 @@ for(const id of carrito){
 const respuesta =
 await fetch(
 
-`http://localhost:3000/api/productos/${id}`
+`/api/productos/${id}`
 
 );
 
