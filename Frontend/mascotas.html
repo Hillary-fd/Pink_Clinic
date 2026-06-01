@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mascotas</title>
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+
+   <h1>🐾 Gestión de Mascotas</h1>
+
+  <nav>
+
+<a href="index.html">Inicio</a>
+<a href="servicios.html">Servicios</a>
+<a href="tienda.html">Tienda</a>
+<a href="mascotas.html">Mascotas</a>
+<a href="citas.html">Citas</a>
+<a href="carrito.html">🛒</a>
+<a href="login.html" id="btnLogin">Login</a>
+<a href="#" id="btnLogout" style="display:none;">Cerrar sesión</a>
+
+</nav>
+</header>
+
+<section>
+
+   <h2>Registrar Mascota</h2>
+
+   <input type="text" id="nombre" placeholder="Nombre">
+
+   <input type="text" id="especie" placeholder="Especie">
+
+   <input type="text" id="raza" placeholder="Raza">
+
+   <input type="number" id="edad" placeholder="Edad">
+
+   <input type="text" id="dueno" placeholder="Dueño">
+
+   <button onclick="guardarMascota()">
+      Guardar Mascota
+   </button>
+
+</section>
+
+<section>
+
+   <h2>Mascotas Registradas</h2>
+
+   <div id="listaMascotas" class="cards"></div>
+
+</section>
+
+<footer>
+<div class="footer-content">
+<h3>🐾 Pink Care Animal Clinic</h3>
+<p>Cuidamos a quienes más amas con atención veterinaria profesional 💗</p>
+<p>📍 San José, Costa Rica | 📞 8888-8888</p>
+<p>✉️ pinkcare@gmail.com</p>
+<p>© 2026 Pink Care Animal Clinic</p>
+</div>
+</footer>
+
+<script src="js/mascotas.js"></script>
+<script src="js/navbar.js"></script>
+
+</body>
+</html>
