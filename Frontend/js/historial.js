@@ -1,8 +1,8 @@
 const API_CITAS =
-"http://localhost:3000/api/citas";
+"/api/citas";
 
 const API_MASCOTAS =
-"http://localhost:3000/api/mascotas";
+"/api/mascotas";
 
 async function cargarHistorial(){
 
