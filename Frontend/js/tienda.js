@@ -33,7 +33,7 @@ document.getElementById(
 
 const respuesta = await fetch(
 
-"http://localhost:3000/api/productos",
+"/api/productos",
 
 {
 
