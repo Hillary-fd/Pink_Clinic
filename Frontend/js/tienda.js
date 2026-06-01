@@ -212,7 +212,7 @@ return;
 
 await fetch(
 
-`http://localhost:3000/api/productos/${id}`,
+`/api/productos/${id}`,
 
 {
 
