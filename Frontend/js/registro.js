@@ -46,7 +46,7 @@ async function registrar(){
    try{
 
       const respuesta = await fetch(
-         "http://localhost:3000/api/usuarios",
+         "/api/usuarios",
          {
 
          method:"POST",
